@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- index è la pagina iniziale, home -->
+<!-- < > parentesi angolare -->
+<html lang="en"> <!--linguaggio base da cui tradurre-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--initial-scal è lo zoom-->
+    <title>sito bello</title>
+</head>
+<body>
+
+
+    <h1>Titolo 1</h1> <!--è tutto semantico, accidentale, quindi indica livello di importanza non di grandezza-->
+    <h2>Titolo 2</h2>
+    <h3>Titolo 3</h3>
+    <h4>Titolo 4</h4>
+    <h5>Titolo 5</h5>
+    <h6>Titolo 6</h6>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quaerat nesciunt vel quisquam dolorem blanditiis, inventore aut vero. Adipisci exercitationem ratione explicabo voluptates, quidem, delectus neque veritatis quam tempora ipsa vitae!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nesciunt vel quisquam dolorem blanditiis, inventore aut vero. Adipisci exercitationem ratione explicabo voluptates, quidem, delectus neque veritatis quam tempora ipsa vitae!</p>
+    <!--dopo paragrafo va a capo, e lo spazio è accidentale-->
+
+    <!--strong semantico, b non semantico-->
+    <!--em semantico, i non semantico-->
+    <p>Lorem <b>psum</b>i dolor sit <strong>amet</strong> consectetur adipisicing elit. <i>Quaerat</i> nesciunt vel <em>quisquam</em> dolorem blanditiis, inventore aut vero. Adipisci exercitationem ratione explicabo voluptates, quidem, delectus neque veritatis quam tempora ipsa vitae!</p>
+
+    <!--/ol order list, ci sono numerini-->
+    <!--ul unorder list, ci sono pallini-->
+    <ol>
+        <li>primo</li>
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+                <!--si possono fare sottoliste-->
+            </ul>
+        <li>secondo</li>
+        <li>terzo</li>
+    </ol>
+
+    <ul>
+        <li>ciao</li>
+        <li>wee</li>
+        <li>buongiorno</li>
+    </ul>
+    
+    <!--tr riga, td colonna-->
+    <table>
+        <thead>
+            <tr><th>posizione</th><th>squadra</th><th>punteggio</th></tr> <!--th piu professionale grassetto (accidentale) e td normale-->
+            <!--fa copia e incolla sotto-->
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>Milan</td><td>34</td></tr>
+            <tr><td>2</td><td>Inter</td><td>31</td></tr>
+            <tr><td>3</td><td>Napoli</td><td>29</td></tr>
+            <tr><td>4</td><td>Juventus</td><td>23</td></tr>
+        </tbody>
+    </table>
+
+    <a href="./page2.html">second pagina</a> <!--link interno, mettere URL relativo, partendo dalla cartella, con "./"-->
+    <a href="http://jazzfm.ro/">jazzfm</a> <!-- link esterno, c'è appunto "http"-->
+    <a href="http://jazzfm.ro/" target="_blank">jazzfm altra scheda</a> <!--apre in un'altra scheda-->
+    <a href="mailto:pippo@gmail.com">pippo@gmail.com</a>
+
+    <img width="200" src="./assets/zelda.jpg" alt="zeldabotw landscape">
+    <img src="./assets/zelda.jpg" alt="zeldabotw landscape">
+    <!--alcuni tag vanno a capo e altri no, perche ci sono blocchi, dipende dal browser-->
+    <img height="350" src="https://e7.pngegg.com/pngimages/443/194/png-clipart-super-mario-world-2-yoshi-s-island-new-super-mario-bros-super-mario-bros-pixel-art-text-super-mario-bros.png" alt="supermarioworld mario pixel">
+    <!--sciegliere height o weight per non sproporzionare-->
+
+    <a href="./assets/zelda.jpg">
+        <img width="200" src="./assets/zelda.jpg" alt="zeldabotw landscape">
+    </a>
+</body>
+</html>
